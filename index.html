@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Leaf</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-design-for-mobile-and-tablets.css">
+
+    <!-- Website Favicon -->
+    <link rel="icon" type="image/png" href="assets/Logo/logo.WebP">
+
+    <!-- Google Fonts and Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lenis Smooth Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css">
+</head>
+<body>
+    <!-- ================= HEADER ================= -->
+    <header class="header reveal">
+        <nav class="nav">
+            <!-- Website Logo -->
+            <div class="nav__brand">
+                <h1 class="nav__logo">
+                    <img src="assets/Logo/logo1.WebP" alt="Green Leaf Logo"> 𝒢𝓇𝑒𝑒𝓃 𝐿𝑒𝒶𝒻
+                </h1>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="nav__search">
+                <input type="text" class="search__input" placeholder="Search plants...">
+                <button class="search__btn"><img src="assets/Logo/search-icon.WebP" alt="Search Icon"></button>
+            </div>
+
+            <!-- Navigation Menu -->
+            <ul class="nav__menu">
+                <li class="nav__item"><a href="#plants" class="nav__link">Plants</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                <li class="nav__item">
+                    <!-- Shopping Cart Button -->
+                    <button class="cart-btn" id="cartBtn">
+                        <span class="cart-btn__icon">
+                            <i class="fal fa-shopping-cart cart" aria-hidden="true"></i>
+                        </span>
+                        <span class="cart-btn__count" id="cartCount">0</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main">
+        <!-- ========== HERO SECTION ========== -->
+        <section class="hero reveal">
+            <div class="hero__content">
+                <div class="hero__badge">𝒲ℯℓ𝒸ℴ𝓂ℯ</div>
+                <h2 class="hero__title">Transform Your Space Into a Green Oasis</h2>
+                <p class="hero__subtitle">
+                    Discover our curated collection of high-quality indoor and outdoor plants 
+                    that purify the air and improve your living space
+                </p>
+
+                <!-- Hero Features -->
+                <div class="hero__features">
+                    <div class="feature">
+                        <span class="feature__icon">
+                            <!-- Icon -->
+                            <svg width="24" height="24" fill="none" stroke="currentColor">
+                                <path d="M5 12h14M12 5l7 7-7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <span class="feature__text">Free Shipping</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature__icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <span class="feature__text">Eco-Friendly</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature__icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <span class="feature__text">Expert Care</span>
+                    </div>
+                </div>
+
+                <!-- Call to Action -->
+                <button class="hero__cta">
+                    <a href="#plants" class="hero__cta__color">Shop Collection</a>
+                </button>
+            </div>
+
+            <!-- Hero Gallery -->
+            <div class="hero__visual ">
+                <div class="hero__gallery">
+                    <div class="gallery__item active">
+                        <img src="assets/Hero Gallery/indoor-plants.webp" alt="Indoor Plants" class="hero__image">
+                        <div class="gallery__info"><h3>Indoor Plants</h3></div>
+                    </div>
+                    <div class="gallery__item">
+                        <img src="assets/Hero Gallery/outdoor-plants.webp" alt="Outdoor Plants" class="hero__image">
+                        <div class="gallery__info"><h3>Outdoor Plants</h3></div>
+                    </div>
+                    <div class="gallery__item">
+                        <img src="assets/Hero Gallery/planting-supplies.webp" alt="Planting Supplies" class="hero__image">
+                        <div class="gallery__info"><h3>Planting Supplies</h3></div>
+                    </div>
+                </div>
+
+                <!-- Gallery Dots -->
+                <div class="gallery__dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== PLANTS SECTION ========== -->
+        <section class="plants reveal" id="plants">
+            <div class="section__header">
+                <div class="section__badge">Our Collection</div>
+                <h2 class="section__title">Featured Plants</h2>
+                <p class="section__subtitle">Handpicked selections for every space and skill level</p>
+            </div>
+
+            <!-- Plant Filters -->
+            <div class="plants__filters">
+                <button class="filter-btn active" data-filter="all">All Plants</button>
+                <button class="filter-btn" data-filter="indoor-plants">Indoor Plants</button>
+                <button class="filter-btn" data-filter="outdoor-plants">Outdoor Plants</button>
+                <button class="filter-btn" data-filter="planting-supplies">Planting Supplies</button>
+            </div>
+
+            <!-- Dynamic Plant Grid -->
+            <div class="plants__grid reveal" id="plantsGrid">
+                <!-- Plants will be dynamically added here via JavaScript -->
+            </div>
+        </section>
+
+        <!-- ========== ABOUT SECTION ========== -->
+        <section class="about reveal" id="about">
+            <div class="section__header reveal">
+                <div class="section__badge reveal">About Us</div>
+                <h2 class="section__title reveal">Why Choose Green Leaf?</h2>
+                <p class="section__subtitle reveal">We're passionate about connecting people with nature</p>
+            </div>
+            <div class="about__content reveal">
+                <div class="about__text reveal">
+                    <h3 class="about__title reveal">Bringing Nature to Your Home</h3>
+                    <p class="about__description reveal">
+                        Founded in 2025, Green Leaf is passionate about connecting people with nature. 
+                        We believe that everyone deserves to experience the joy and benefits of living with plants. 
+                        Our carefully curated collection features only the healthiest, most beautiful plants that 
+                        are perfect for both beginners and experienced plant enthusiasts.
+                    </p>
+                    <div class="about__stats reveal">
+                        <div class="about__stat">
+                            <span class="about__stat-number">5000+</span>
+                            <span class="about__stat-label">Happy Customers</span>
+                        </div>
+                        <div class="about__stat">
+                            <span class="about__stat-number">10+</span>
+                            <span class="about__stat-label">Plant Varieties</span>
+                        </div>
+                        <div class="about__stat">
+                            <span class="about__stat-number">98%</span>
+                            <span class="about__stat-label">Survival Rate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__visual reveal">
+                    <div class="about__cards reveal">
+                        <div class="about__card">
+                            <svg class="card__icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        <h4>Sustainable Sourcing</h4>
+                        <p>We work directly with eco-conscious growers</p>
+                    </div>
+                    <div class="about__card">
+                            <svg class="card__icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        <h4>Expert Packaging</h4>
+                        <p>Your plants arrive healthy and ready to thrive</p>
+                    </div>
+                    <div class="about__card">
+                            <svg class="card__icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2zM22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        <h4>Care Guides</h4>
+                        <p>Detailed instructions for every plant</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CONTACT SECTION ========== -->
+        <section class="contact reveal" id="contact">
+            <div class="section__header reveal">
+                <div class="section__badge">Get In Touch</div>
+                <h2 class="section__title">Contact Us</h2>
+                <p class="section__subtitle">We're here to help you grow</p>
+            </div>
+            <div class="contact__content reveal">
+                <div class="contact__info">
+                    <div class="contact__item">
+                        <span class="contact__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="12" cy="10" r="3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <div class="contact__details ">
+                            <h4 class="contact__title">Visit Our Store</h4>
+                            <p class="contact__text">Gilan, Rasht, Deylaman</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <span class="contact__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <div class="contact__details">
+                            <h4 class="contact__title">Call Us</h4>
+                            <p class="contact__text">01362183494</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <span class="contact__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 6l-10 7L2 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <div class="contact__details">
+                            <h4 class="contact__title">Email Us</h4>
+                            <p class="contact__text">hello@greenspace.com</p>
+                        </div>
+                    </div>
+                    <div class="contact__hours">
+                        <h4 class="contact__title">Store Hours</h4>
+                        <p class="contact__text">Saturday - Wednesday: 9:00 AM - 6:00 PM</p>
+                        <p class="contact__text">Thursday - Friday: 10:00 AM - 4:00 PM</p>
+                    </div>
+                </div>
+                <form class="contact__form" id="contactForm">
+                    <div class="form__group">
+                        <label for="name" class="form__label">Name</label>
+                        <input type="text" id="name" name="name" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Email</label>
+                        <input type="email" id="email" name="email" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="message" class="form__label">Message</label>
+                        <textarea id="message" name="message" class="form__textarea" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="form__submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer reveal">
+        <div class="footer__content">
+            <div class="footer__brand">
+                <h3 class="footer__logo">𝒢𝓇𝑒𝑒𝓃 𝐿𝑒𝒶𝒻</h3>
+                <p class="footer__tagline">This website was created as a final project for the Harvard CS50X course.</p>
+                <div class="footer__social-links">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer__links">
+                <div class="footer__column">
+                    <h4 class="footer__title">Shop</h4>
+                    <ul class="footer__list">
+                        <li><a href="#plants" class="footer__link">All Plants</a></li>
+                        <li><a href="#plants" class="footer__link">Indoor Plants</a></li>
+                        <li><a href="#plants" class="footer__link">Outdoor Plants</a></li>
+                        <li><a href="#plants" class="footer__link">Planting Supplies</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__column">
+                    <h4 class="footer__title">Support</h4>
+                    <ul class="footer__list">
+                        <li><a href="#contact" class="footer__link">Contact Us</a></li>
+                        <li><a href="#about" class="footer__link">About Us</a></li>
+                        <li><a href="#contact" class="footer__link">Store Hours</a></li>
+                        <li><a href="#contact" class="footer__link">Location</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__column">
+                    <h4 class="footer__title">Resources</h4>
+                    <ul class="footer__list">
+                        <li><a href="#about" class="footer__link">Plant Care Guide</a></li>
+                        <li><a href="#about" class="footer__link">Blog</a></li>
+                        <li><a href="#about" class="footer__link">FAQ</a></li>
+                        <li><a href="#about" class="footer__link">Shipping Info</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__column">
+                    <h4 class="footer__title">Newsletter</h4>
+                    <p class="newsletter__text">Get plant tips and exclusive offers</p>
+                    <form class="newsletter__form">
+                        <input type="email" class="newsletter__input" placeholder="Your email">
+                        <button type="submit" class="newsletter__btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer__bottom">
+                <p> Designed & Developed by <a href="https://shadrouh.ir" class="animated-name">Abolfazl Shadrouh</a>.</p>
+            <div class="footer__bottom-links">
+                <a href="#" class="footer__link">Privacy Policy</a>
+                <a href="#" class="footer__link">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-modal__content">
+            <div class="cart-modal__header">
+                <h3 class="cart-modal__title">Shopping Cart</h3>
+                <button class="cart-modal__close" id="closeCart">×</button>
+            </div>
+            <div class="cart-modal__items" id="cartItems">
+                <!-- Cart items will be added here -->
+            </div>
+            <div class="cart-modal__footer">
+                <div class="cart-modal__total">
+                    <span>Total:</span>
+                    <span id="cartTotal">$0</span>
+                </div>
+                <button class="cart-modal__checkout">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= SCRIPTS ================= -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script> 
+</body>
+</html>
+
+<!-- This HTML code was written, optimized, and developed by Abolfazl Shadrouh -->
