@@ -1,81 +1,159 @@
-/* =======================
-   Responsive Design for Tablets (max-width: 768px)
-======================= */
 @media (max-width: 768px) {
-    body {
-        padding-top: 170px;
-    }
-
-    /* Hide hero badge on smaller screens */
-    .hero__badge {
-        display: none;
-    }
-    
-    /* Stack navigation items vertically */
     .nav {
         flex-direction: column;
         gap: 1rem;
+        padding: 1rem;
     }
     
-    /* Hide search bar in navigation */
+    .nav__menu {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
     .nav__search {
         display: none;
     }
     
-    /* Adjust hero section for smaller screens */
     .hero {
         flex-direction: column;
         text-align: center;
         padding: 2rem 1rem;
         gap: 2rem;
-        margin-top: 20px;
+        min-height: auto;
+        padding-top: 15rem;
     }
     
-    /* Adjust hero features layout */
+    .hero__title {
+        font-size: 2.5rem;
+    }
+    
+    .hero__subtitle {
+        font-size: 1.2rem;
+    }
+    
     .hero__features {
         justify-content: center;
         flex-wrap: wrap;
-    }
-
-    /* Display plants in 2 columns grid */
-    #plantsGrid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem; 
+        gap: 1rem;
     }
     
-    /* Reduce hero gallery size */
     .hero__gallery {
-        width: 300px;
-        height: 300px;
-    }
-    
-    /* Make plant filters horizontally scrollable */
-    .plants__filters {
-        display: flex;
-        flex-wrap: nowrap;       
-        justify-content: space-between; 
-        overflow-x: auto;       
-        padding-bottom: 0.5rem;
-        gap: 0.5rem;            
-    }
-    
-    /* Hide about cards on smaller screens */
-    .about__cards {
         display: none;
     }
-
-    /* Adjust text alignment in about section */
-    .about__text {
-        margin-left: 70px;
+    
+    .gallery__dots {
+        display: none;
     }
     
-    /* Stack newsletter form inputs vertically */
+    .plants__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 0 0.5rem;
+    }
+    
+    .plant-card {
+        margin: 0;
+    }
+    
+    .plant-card__image-wrapper {
+        height: 150px;
+    }
+    
+    .plant-card__content {
+        padding: 1rem;
+    }
+    
+    .plant-card__name {
+        font-size: 1rem;
+    }
+    
+    .plant-card__description {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .plant-card__price {
+        font-size: 1.1rem;
+    }
+    
+    .plant-card__add-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        border-radius: 15px;
+    }
+    
+    .plants__filters {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        justify-content: normal;
+        overflow-x: visible;
+        padding: 0 0.5rem;
+        margin: 2rem 0 3rem;
+    }
+    
+    .filter-btn {
+        padding: 0.75rem 0.5rem;
+        font-size: 0.85rem;
+        white-space: normal;
+        text-align: center;
+        word-break: break-word;
+    }
+    
+    .section__title {
+        font-size: 2rem;
+    }
+    
+    .section__subtitle {
+        font-size: 1rem;
+    }
+    
+    .about__content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .about__title {
+        font-size: 2rem;
+    }
+    
+    .about__stats {
+        gap: 1.5rem;
+    }
+    
+    .about__stat-number {
+        font-size: 2rem;
+    }
+    
+    .contact__content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .cart-modal {
+        width: 100%;
+        right: -100%;
+    }
+    
+    .cart-modal.active {
+        right: 0;
+    }
+    
+    .language-switcher {
+        transform: scale(0.9);
+    }
+    
     .newsletter__form {
         flex-direction: column;
+        gap: 0.5rem;
     }
     
-    /* Footer layout for smaller screens */
+    .newsletter__input,
+    .newsletter__btn {
+        width: 100%;
+    }
+    
     .footer__content {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -93,29 +171,86 @@
     }
 }
 
-/* =======================
-   Responsive Design for Mobile Phones (max-width: 480px)
-======================= */
 @media (max-width: 480px) {
-    /* Footer links in single column */
-    .footer__links {
-        grid-template-columns: 1fr;
-    }
-
-    /* Hide search bar in navigation */
-    .nav__search {
-        display: none;
+    .nav__logo {
+        font-size: 1.5rem;
     }
     
-    /* Plants grid with smaller gaps */
-    #plantsGrid {
+    .hero__title {
+        font-size: 2rem;
+    }
+    
+    .hero__gallery {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .plants__grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 0.8rem;
     }
     
-    /* Reduce footer padding */
+    .plant-card__image-wrapper {
+        height: 120px;
+    }
+    
+    .plant-card__name {
+        font-size: 0.9rem;
+    }
+    
+    .plant-card__description {
+        font-size: 0.75rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    
+    .plant-card__footer {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: stretch;
+    }
+    
+    .plant-card__add-btn {
+        width: 100%;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+    
+    .section__title {
+        font-size: 1.8rem;
+    }
+    
+    .footer__links {
+        grid-template-columns: 1fr;
+    }
+    
     .footer {
         padding: 3rem 1rem 1rem;
+    }
+    
+    .plants__filters {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.4rem;
+        padding: 0 0.3rem;
+    }
+    
+    .filter-btn {
+        padding: 0.6rem 0.4rem;
+        font-size: 0.8rem;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .filter-btn,
+    .nav__link,
+    .cart-btn,
+    .language-btn {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
     }
 }
 

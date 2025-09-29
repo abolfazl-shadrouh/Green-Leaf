@@ -35,6 +35,36 @@ const plants = [
     },
     {
         id: 4,
+        name: "Anthurium Red",
+        description: "Bright red flowers, glossy green leaves",
+        price: 27,
+        image: "assets/Indoor Plants/anthurium-red.webp",
+        category: "indoor-plants",
+        care: "Moderate",
+        size: "Medium"
+    },
+    {
+        id: 5,
+        name: "Areca Palm",
+        description: "Tall indoor palm with feathery fronds",
+        price: 33,
+        image: "assets/Indoor Plants/areca-palm-plant.WebP",
+        category: "indoor-plants",
+        care: "Easy",
+        size: "Large"
+    },
+    {
+        id: 6,
+        name: "Bird of Paradise",
+        description: "Exotic plant with large tropical leaves",
+        price: 45,
+        image: "assets/Indoor Plants/bird-of-paradise.webp",
+        category: "indoor-plants",
+        care: "Moderate",
+        size: "Large"
+    },    
+    {
+        id: 7,
         name: "Philodendron",
         description: "Classic tropical leafy indoor houseplant",
         price: 32,
@@ -44,7 +74,7 @@ const plants = [
         size: "Large"
     },
     {
-        id: 5,
+        id: 8,
         name: "Poinsettia Red",
         description: "Festive red holiday decorative plant",
         price: 24,
@@ -54,7 +84,7 @@ const plants = [
         size: "Medium"
     },
     {
-        id: 6,
+        id: 9,
         name: "Poinsettia Pink",
         description: "Elegant pink festive decorative plant",
         price: 22,
@@ -64,7 +94,7 @@ const plants = [
         size: "Medium"
     },
     {
-        id: 7,
+        id: 10,
         name: "Adenium",
         description: "Desert rose succulent flowering plant",
         price: 45,
@@ -74,7 +104,7 @@ const plants = [
         size: "Medium"
     },
     {
-        id: 8,
+        id: 11,
         name: "Alo Vera",
         description: "Medicinal succulent indoor air-purifier",
         price: 15,
@@ -84,7 +114,7 @@ const plants = [
         size: "Small"
     },
     {
-        id: 9,
+        id: 12,
         name: "Bougainvilla",
         description: "Vibrant climbing flowering outdoor plant",
         price: 28,
@@ -94,7 +124,7 @@ const plants = [
         size: "Large"
     },
     {
-        id: 10,
+        id: 13,
         name: "Buxus",
         description: "Evergreen ornamental shrub plant",
         price: 33,
@@ -104,7 +134,37 @@ const plants = [
         size: "Medium"
     },
     {
-        id: 11,
+        id: 14,
+        name: "Cactus Ball",
+        description: "Round cactus with sharp protective spines",
+        price: 13,
+        image: "assets/Outdoor Plants/cactus-ball.webp",
+        category: "outdoor-plants",
+        care: "Very Easy",
+        size: "Small"
+    },   
+    {
+        id: 15,
+        name: "Crown of Thron",
+        description: "Spiny succulent with bright colorful flowers",
+        price: 19,
+        image: "assets/Outdoor Plants/crown_of_thron.webp",
+        category: "outdoor-plants",
+        care: "Easy",
+        size: "Medium"
+    },    
+    {
+        id: 16,
+        name: "Sansevieria",
+        description: "Hardy plant with tall upright leaves",
+        price: 22,
+        image: "assets/Outdoor Plants/sansevieria.webp",
+        category: "outdoor-plants",
+        care: "Very Easy",
+        size: "Medium"
+    },             
+    {
+        id: 17,
         name: "Ficus benjamina",
         description: "Popular indoor weeping fig plant",
         price: 40,
@@ -114,7 +174,7 @@ const plants = [
         size: "Large"
     },
     {
-        id: 12,
+        id: 18,
         name: "Ficus Bonsai",
         description: "Miniature decorative indoor bonsai tree",
         price: 55,
@@ -124,7 +184,7 @@ const plants = [
         size: "Small"
     },
     {
-        id: 13,
+        id: 19,
         name: "Epsom Salt",
         description: "Magnesium-rich plant growth supplement",
         price: 12,
@@ -134,7 +194,7 @@ const plants = [
         size: "Small"
     },
     {
-        id: 14,
+        id: 20,
         name: "Fast Green",
         description: "Quick-acting liquid plant fertilizer",
         price: 18,
@@ -144,7 +204,7 @@ const plants = [
         size: "Small"
     },
     {
-        id: 15,
+        id: 21,
         name: "Fruit Fertlizers",
         description: "Nutrient-rich fertilizer for fruit plants",
         price: 20,
@@ -154,7 +214,7 @@ const plants = [
         size: "Medium"
     },
     {
-        id: 16,
+        id: 22,
         name: "General Purpose Fertilizer",
         description: "All-purpose plant growth enhancer",
         price: 17,
@@ -164,7 +224,7 @@ const plants = [
         size: "Medium"
     },
     {
-        id: 17,
+        id: 23,
         name: "Nitrogen Fertilizer",
         description: "High-nitrogen plant growth booster",
         price: 21,
@@ -174,7 +234,7 @@ const plants = [
         size: "Medium"
     },
     {
-        id: 18,
+        id: 24,
         name: "Solu Complex",
         description: "Water-soluble complete plant fertilizer",
         price: 23,
