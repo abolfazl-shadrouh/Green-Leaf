@@ -1,7 +1,7 @@
 /* =======================
    Import Google Fonts
 ======================= */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* =======================
    Global Reset & Root Variables
@@ -29,7 +29,7 @@
 }
 
 body {
-    font-family: shabnam, 'Space Grotesk', sans-serif;
+    font-family: "Roboto", sans-serif;
     background: var(--cream);
     color: var(--gray-900);
     line-height: 1.6;
