@@ -47,7 +47,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
         padding: 0 0.5rem;
-        align-items: stretch; /* کارت‌ها هم‌قد */
+        align-items: stretch;
     }
 
     .plant-card {
@@ -75,8 +75,8 @@
     .plant-card__description {
         font-size: 0.8rem;
         margin-bottom: 0.5rem;
-        min-height: 40px;   /* ارتفاع ثابت برای توضیحات */
-        flex-grow: 1;       /* پر کردن فضای خالی */
+        min-height: 40px;  
+        flex-grow: 1;
     }
 
     .plant-card__price {
@@ -212,7 +212,7 @@
         display: -webkit-box;
         -webkit-box-orient: vertical;
         overflow: hidden;
-        min-height: 40px;  /* ثابت بودن ارتفاع */
+        min-height: 40px; 
         flex-grow: 1;
     }
 
