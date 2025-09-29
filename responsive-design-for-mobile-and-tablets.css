@@ -4,85 +4,93 @@
         gap: 1rem;
         padding: 1rem;
     }
-    
+
     .nav__menu {
         gap: 1rem;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     .nav__search {
         display: none;
     }
-    
+
     .hero {
         flex-direction: column;
         text-align: center;
         padding: 2rem 1rem;
         gap: 2rem;
         min-height: auto;
-        padding-top: 15rem;
+        padding-top: 12rem;
     }
-    
+
     .hero__title {
         font-size: 2.5rem;
     }
-    
+
     .hero__subtitle {
         font-size: 1.2rem;
     }
-    
+
     .hero__features {
         justify-content: center;
         flex-wrap: wrap;
         gap: 1rem;
     }
-    
-    .hero__gallery {
-        display: none;
-    }
-    
+
+    .hero__gallery,
     .gallery__dots {
         display: none;
     }
-    
+
     .plants__grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
         padding: 0 0.5rem;
+        align-items: stretch; /* کارت‌ها هم‌قد */
     }
-    
+
     .plant-card {
         margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
-    
+
     .plant-card__image-wrapper {
         height: 150px;
     }
-    
+
     .plant-card__content {
         padding: 1rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
     }
-    
+
     .plant-card__name {
         font-size: 1rem;
     }
-    
+
     .plant-card__description {
         font-size: 0.8rem;
         margin-bottom: 0.5rem;
+        min-height: 40px;   /* ارتفاع ثابت برای توضیحات */
+        flex-grow: 1;       /* پر کردن فضای خالی */
     }
-    
+
     .plant-card__price {
         font-size: 1.1rem;
     }
-    
+
     .plant-card__add-btn {
         padding: 0.5rem 1rem;
         font-size: 0.9rem;
         border-radius: 15px;
+        margin-top: auto;
+        align-self: center;
     }
-    
+
     .plants__filters {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -92,7 +100,7 @@
         padding: 0 0.5rem;
         margin: 2rem 0 3rem;
     }
-    
+
     .filter-btn {
         padding: 0.75rem 0.5rem;
         font-size: 0.85rem;
@@ -100,70 +108,70 @@
         text-align: center;
         word-break: break-word;
     }
-    
+
     .section__title {
         font-size: 2rem;
     }
-    
+
     .section__subtitle {
         font-size: 1rem;
     }
-    
+
     .about__content {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    
+
     .about__title {
         font-size: 2rem;
     }
-    
+
     .about__stats {
         gap: 1.5rem;
     }
-    
+
     .about__stat-number {
         font-size: 2rem;
     }
-    
+
     .contact__content {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    
+
     .cart-modal {
         width: 100%;
         right: -100%;
     }
-    
+
     .cart-modal.active {
         right: 0;
     }
-    
+
     .language-switcher {
         transform: scale(0.9);
     }
-    
+
     .newsletter__form {
         flex-direction: column;
         gap: 0.5rem;
     }
-    
+
     .newsletter__input,
     .newsletter__btn {
         width: 100%;
     }
-    
+
     .footer__content {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    
+
     .footer__links {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
     }
-    
+
     .footer__bottom {
         flex-direction: column;
         gap: 1rem;
@@ -175,66 +183,70 @@
     .nav__logo {
         font-size: 1.5rem;
     }
-    
+
     .hero__title {
         font-size: 2rem;
     }
-    
+
     .hero__gallery {
         width: 250px;
         height: 250px;
     }
-    
+
     .plants__grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 0.8rem;
+        align-items: stretch;
     }
-    
+
     .plant-card__image-wrapper {
         height: 120px;
     }
-    
+
     .plant-card__name {
         font-size: 0.9rem;
     }
-    
+
     .plant-card__description {
         font-size: 0.75rem;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         overflow: hidden;
+        min-height: 40px;  /* ثابت بودن ارتفاع */
+        flex-grow: 1;
     }
-    
+
     .plant-card__footer {
         flex-direction: column;
         gap: 0.5rem;
         align-items: stretch;
+        margin-top: auto;
     }
-    
+
     .plant-card__add-btn {
         width: 100%;
         padding: 0.4rem 0.8rem;
         font-size: 0.8rem;
     }
-    
+
     .section__title {
         font-size: 1.8rem;
     }
-    
+
     .footer__links {
         grid-template-columns: 1fr;
     }
-    
+
     .footer {
         padding: 3rem 1rem 1rem;
     }
-    
+
     .plants__filters {
         grid-template-columns: repeat(2, 1fr);
         gap: 0.4rem;
         padding: 0 0.3rem;
     }
-    
+
     .filter-btn {
         padding: 0.6rem 0.4rem;
         font-size: 0.8rem;
@@ -243,7 +255,7 @@
         align-items: center;
         justify-content: center;
     }
-    
+
     .filter-btn,
     .nav__link,
     .cart-btn,
