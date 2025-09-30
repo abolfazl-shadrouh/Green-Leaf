@@ -672,4 +672,17 @@ document.addEventListener("DOMContentLoaded", () => {
   reveals.forEach(el => observer.observe(el));
 });
 
+/* =======================
+   Checkout Button Alert
+======================= */
+document.querySelector('.cart-modal__checkout').addEventListener('click', e => {
+  e.stopPropagation();
+
+  if (!cart.length) {
+    return alert('Your cart is empty.');
+  }
+
+  alert('Proceeding to checkout... (demo)');
+});
+
 // This JavaScript code was written, optimized, and developed by Abolfazl Shadrouh
