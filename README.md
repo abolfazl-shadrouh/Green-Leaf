@@ -96,10 +96,11 @@ Example: [https://abolfazl-shadrouh.github.io/Green-Leaf/](#)
 > A visual preview of Green Leaf on desktop and mobile devices.
 
 ### 📱 Home Page (Mobile)
-<img src="assets/screenshots/home-mobile.png" alt="Home Mobile" width="400"/>
+<img src="assets/screenshots/home-mobile.png" alt="Home Mobile" width="300"/>
 
 ### 📱 Plants / Products Page (Mobile)
-<img src="assets/screenshots/plants-mobile.png" alt="Plants Mobile" width="400"/>
+<img src="assets/screenshots/plants-mobile.png" alt="Plants Mobile" width="300"/>
+
 ---
 
 ### 🖥️ Plants / Products Page (Desktop)
