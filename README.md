@@ -3,6 +3,9 @@
 **Welcome to Green Leaf!**  
 A modern, responsive online store for indoor plants, decorative flowers, and plant care accessories. Bring nature into your home and enjoy a fresh, green, and calming space.
 
+[![GitHub stars](https://img.shields.io/github/stars/abolfazl-shadrouh/Green-Leaf?style=social)](https://github.com/abolfazl-shadrouh/Green-Leaf/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/abolfazl-shadrouh/Green-Leaf?style=social)](https://github.com/abolfazl-shadrouh/Green-Leaf/network)
+[![License](https://img.shields.io/github/license/abolfazl-shadrouh/Green-Leaf)](https://github.com/abolfazl-shadrouh/Green-Leaf/blob/main/LICENSE)
 ---
 
 ## ✨ Table of Contents
@@ -68,11 +71,12 @@ To run locally:
 
 2. Navigate into folder
   ```bash
-  cd Green-Leaf
+git clone cd Green-Leaf
 ```
+
 3. Open index.html in your browser
   ```bash
-  open index.html
+git clone open index.html
 ```
 
 ---
