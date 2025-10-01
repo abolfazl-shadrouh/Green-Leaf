@@ -83,14 +83,6 @@ git clone open index.html
 
 ---
 
-## 🚀 Live Demo
-
-🌐 *Add your live website link here (Netlify, GitHub Pages, or other hosting)*  
-
-Example: [https://abolfazl-shadrouh.github.io/Green-Leaf/](#)
-
----
-
 ## 📷 Screenshots
 
 > A visual preview of Green Leaf on desktop and mobile devices.
