@@ -684,5 +684,3 @@ document.querySelector('.cart-modal__checkout').addEventListener('click', e => {
 
   alert('Proceeding to checkout... (demo)');
 });
-
-// This JavaScript code was written, optimized, and developed by Abolfazl Shadrouh
