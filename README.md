@@ -96,23 +96,23 @@ Example: [https://abolfazl-shadrouh.github.io/Green-Leaf/](#)
 > A visual preview of Green Leaf on desktop and mobile devices.
 
 ### 🖥️ Home Page (Desktop)
-![Home Desktop](assets/screenshots/home-desktop.png)
+<img src="assets/screenshots/home-desktop.png" alt="Home Desktop" width="400"/>
 
 ### 📱 Home Page (Mobile)
-![Home Mobile](assets/screenshots/home-mobile.png)
+<img src="assets/screenshots/home-mobile.png" alt="Home Mobile" width="400"/>
 
 ---
 
 ### 🖥️ Plants / Products Page (Desktop)
-![Plants Desktop](assets/screenshots/plants-desktop.png)
+<img src="assets/screenshots/plants-desktop.png" alt="Plants Desktop" width="400"/>
 
 ### 📱 Plants / Products Page (Mobile)
-![Plants Mobile](assets/screenshots/plants-mobile.png)
+<img src="assets/screenshots/plants-mobile.png" alt="Plants Mobile" width="400"/>
 
 ---
 
 ### 🌍 Contact Us
-![Plants Mobile](assets/screenshots/contact-us.png)
+<img src="assets/screenshots/contact-us.png" alt="Plants Desktop" width="400"/>
 
 ---
 
