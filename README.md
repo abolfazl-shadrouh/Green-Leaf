@@ -93,11 +93,26 @@ Example: [https://abolfazl-shadrouh.github.io/Green-Leaf/](#)
 
 ## 📷 Screenshots
 
-> Add your screenshots here to make the README more attractive.
+> A visual preview of Green Leaf on desktop and mobile devices.
 
-| Home Page | Product Page | Contact Form |
-|-----------|--------------|--------------|
-| ![Home](assets/screenshots/home.png) | ![Products](assets/screenshots/products.png) | ![Contact](assets/screenshots/contact.png) |
+### 🖥️ Home Page (Desktop)
+![Home Desktop](assets/screenshots/home-desktop.png)
+
+### 📱 Home Page (Mobile)
+![Home Mobile](assets/screenshots/home-mobile.png)
+
+---
+
+### 🖥️ Plants / Products Page (Desktop)
+![Plants Desktop](assets/screenshots/plants-desktop.png)
+
+### 📱 Plants / Products Page (Mobile)
+![Plants Mobile](assets/screenshots/plants-mobile.png)
+
+---
+
+### 🌍 Contact Us
+![Plants Mobile](assets/screenshots/contact-us.png)
 
 ---
 
