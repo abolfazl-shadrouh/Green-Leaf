@@ -1,11 +1,13 @@
 # 🌿 Green Leaf – Your Online Plant Store
 
-**Welcome to Green Leaf!**  
-A modern, responsive online store for indoor plants, decorative flowers, and plant care accessories. Bring nature into your home and enjoy a fresh, green, and calming space.
-
 [![GitHub stars](https://img.shields.io/github/stars/abolfazl-shadrouh/Green-Leaf?style=social)](https://github.com/abolfazl-shadrouh/Green-Leaf/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/abolfazl-shadrouh/Green-Leaf?style=social)](https://github.com/abolfazl-shadrouh/Green-Leaf/network)
 [![License](https://img.shields.io/github/license/abolfazl-shadrouh/Green-Leaf)](https://github.com/abolfazl-shadrouh/Green-Leaf/blob/main/LICENSE)
+
+**Welcome to Green Leaf!**  
+A modern, responsive online store for indoor plants, decorative flowers, and plant care accessories. 🌱  
+Bring nature into your home and enjoy a fresh, green, and calming environment.  
+
 ---
 
 ## ✨ Table of Contents
@@ -122,7 +124,10 @@ Made with ❤️ in Iran
 
 If you enjoy my work, please consider supporting me:  
 ⬇️  
-[Instagram](https://www.instagram.com/abolfazl_shadrouh) | [GitHub](https://github.com/abolfazl-shadrouh) | [Website](https://www.shadrouh.ir)
+
+[![Instagram](https://img.shields.io/badge/Instagram-@abolfazlshadrouh-E4405F?style=flat&logo=instagram&logoColor=white)](#)  
+[![GitHub](https://img.shields.io/badge/GitHub-AbolfazlShadrouh-181717?style=flat&logo=github&logoColor=white)](https://github.com/abolfazl-shadrouh)  
+[![Website](https://img.shields.io/badge/Website-Shadrouh.ir-4CAF50?style=flat&logo=google-chrome&logoColor=white)](https://www.shadrouh.ir)
 
 ---
 
